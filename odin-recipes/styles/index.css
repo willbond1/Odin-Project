@@ -1,0 +1,24 @@
+body * {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 74px;
+    background-color: lightgreen;
+    color: blue;
+    font-family: "Brush Script MT", cursive, serif;
+    font-weight: bold;
+}
+
+.main-index {
+    background-color: lightseagreen;
+    height: 100px;
+    width: auto;
+}
+
+.recipe {
+    background-color: lightblue;
+    font-weight: bold;
+    font-family: "Garamond", serif;
+    color: lightcoral;
+}
