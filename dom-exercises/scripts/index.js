@@ -23,3 +23,9 @@ para2.textContent = "ME TOO!";
 newDiv.appendChild(para2);
 
 divContainer.appendChild(newDiv);
+
+const btn = document.querySelector('#btn');
+btn.addEventListener("click", e => {
+    e.target.style.backgroundColor = "blue";
+    alert(e.target);
+});
